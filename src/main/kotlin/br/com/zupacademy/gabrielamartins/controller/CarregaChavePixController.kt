@@ -12,7 +12,7 @@ import java.util.*
 @Controller("/api/v1/clientes/{clienteId}")
 class CarregaChavePixController(
     val carregaChavePixClient: KeyManagerCarregaServiceGrpc.KeyManagerCarregaServiceBlockingStub,
-    val listaChavesPixClient: KeyManagerListaServiceGrpc.KeyManagerListaServiceBlockingStub
+
 ) {
 
     @Get("/pix/{pixId}")
